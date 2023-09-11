@@ -162,8 +162,8 @@ os.environ['OPENAI_API_KEY'] = 'sk-WHgisDiSeWIyh1ctkWbkT3BlbkFJOoVbSqJ32V5PHWxQB
 
 
 
-!pip install -q langchain
-!pip install -q openai
+#!pip install -q langchain
+#!pip install -q openai
 
 import numpy as np
 import pandas as pd
@@ -221,7 +221,7 @@ import sqlite3
 read_sql_query('SELECT * FROM batsmen_details LIMIT 10;',
                "ODI_cricket.sqlite")
 
-! pip install langchain-experimental
+#!pip install langchain-experimental
 
 from langchain_experimental.sql import SQLDatabaseChain
 
