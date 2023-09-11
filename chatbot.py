@@ -237,7 +237,7 @@ db_agent.run("Which player has played the most innings?")
 
 db_agent.run("Which player has scored the most centuries?")
 
-pip install tk
+
 
 """**Using text UI to generate answers**"""
 
